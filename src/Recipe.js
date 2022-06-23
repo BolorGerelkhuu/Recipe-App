@@ -1,7 +1,6 @@
 import React from "react";
 
 function Recipe({ recipe, deleteRecipe }) {
-  
   return (
     <tr className="recipe" id={recipe.name}>
       <td>
